@@ -1,0 +1,6 @@
+#:C:\My\Projects\MessageProto\src\MessageProto.Domain\MessageProto.Domain.xproj
+#:C:\My\Projects\MessageProto\src\MessageProto\MessageProto.xproj
+C:\My\Projects\MessageProto\src\MessageProto\MessageProto.xproj|C:\My\Projects\MessageProto\src\Insellerate.Infastructure\Insellerate.Infastructure.xproj
+C:\My\Projects\MessageProto\src\MessageProto\MessageProto.xproj|C:\My\Projects\MessageProto\src\MessageProto.Data\MessageProto.Data.xproj
+C:\My\Projects\MessageProto\src\MessageProto\MessageProto.xproj|C:\My\Projects\MessageProto\src\MessageProto.Domain\MessageProto.Domain.xproj
+C:\My\Projects\MessageProto\src\MessageProto.Data\MessageProto.Data.xproj|C:\My\Projects\MessageProto\src\Insellerate.Infastructure\Insellerate.Infastructure.xproj

@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Akka": "1.1.1",
+    "Akka.Persistence.SqlServer": "1.1.1.5-beta",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "net451"
+    }
+  }
+}
