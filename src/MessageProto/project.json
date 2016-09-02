@@ -16,8 +16,8 @@
     "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
     "Microsoft.Extensions.Configuration.Json": "1.0.0",
     "Microsoft.Extensions.Configuration.UserSecrets": "1.0.0",
-    "Insellerate.Infastructure": "1.0.0-*",
-    "MessageProto.Domain": "1.0.0-*"
+    "MessageProto.Domain": "1.0.0-*",
+    "Infastrucutre": "1.0.0-*"
   },
 
   "tools": {

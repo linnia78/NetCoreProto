@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
-namespace Insellerate.Infastructure
+namespace Infastructure
 {
     public static class ConfigurationBuilderExtension
     {

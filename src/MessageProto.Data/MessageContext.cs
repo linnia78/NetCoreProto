@@ -1,4 +1,4 @@
-﻿using Insellerate.Infastructure;
+﻿using Infastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;

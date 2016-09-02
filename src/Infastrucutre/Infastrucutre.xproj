@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>f57b4978-44f1-47d1-827b-7348dad950a2</ProjectGuid>
-    <RootNamespace>Insellerate.Infastructure</RootNamespace>
+    <ProjectGuid>45ab27e8-8092-498c-8178-a9cd281b81dc</ProjectGuid>
+    <RootNamespace>Infastrucutre</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>

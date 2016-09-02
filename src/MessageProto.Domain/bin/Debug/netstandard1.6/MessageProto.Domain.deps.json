@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v1.6/",
-    "signature": "25372870018947a0988db2611d3642ce25c09d2e"
+    "signature": "dc7078ba708953ec11a9cf905c1a3092dd9ee8de"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,10 +9,60 @@
     ".NETStandard,Version=v1.6/": {
       "MessageProto.Domain/1.0.0": {
         "dependencies": {
+          "Akka": "1.1.1",
+          "Akka.Persistence.SqlServer": "1.1.1.5-beta",
           "NETStandard.Library": "1.6.0"
         },
         "runtime": {
           "MessageProto.Domain.dll": {}
+        }
+      },
+      "Akka/1.1.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "7.0.1",
+          "System.Collections.Immutable": "1.1.36"
+        },
+        "runtime": {
+          "lib/net45/Akka.dll": {}
+        }
+      },
+      "Akka.Persistence/1.1.1.28-beta": {
+        "dependencies": {
+          "Akka": "1.1.1",
+          "Google.ProtocolBuffers": "2.4.1.555",
+          "Newtonsoft.Json": "7.0.1",
+          "System.Collections.Immutable": "1.1.36"
+        },
+        "runtime": {
+          "lib/net45/Akka.Persistence.dll": {}
+        }
+      },
+      "Akka.Persistence.Sql.Common/1.1.1.28-beta": {
+        "dependencies": {
+          "Akka.Persistence": "1.1.1.28-beta",
+          "System.Collections.Immutable": "1.1.36"
+        },
+        "runtime": {
+          "lib/net45/Akka.Persistence.Sql.Common.dll": {}
+        }
+      },
+      "Akka.Persistence.SqlServer/1.1.1.5-beta": {
+        "dependencies": {
+          "Akka": "1.1.1",
+          "Akka.Persistence": "1.1.1.28-beta",
+          "Akka.Persistence.Sql.Common": "1.1.1.28-beta",
+          "Google.ProtocolBuffers": "2.4.1.555",
+          "Newtonsoft.Json": "7.0.1",
+          "System.Collections.Immutable": "1.1.36"
+        },
+        "runtime": {
+          "lib/net45/Akka.Persistence.SqlServer.dll": {}
+        }
+      },
+      "Google.ProtocolBuffers/2.4.1.555": {
+        "runtime": {
+          "lib/net40/Google.ProtocolBuffers.Serialization.dll": {},
+          "lib/net40/Google.ProtocolBuffers.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.0.1": {},
@@ -70,6 +120,11 @@
           "System.Threading.Timer": "4.0.1",
           "System.Xml.ReaderWriter": "4.0.11",
           "System.Xml.XDocument": "4.0.11"
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.native.System/4.0.0": {
@@ -138,6 +193,11 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.Concurrent.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.1.36": {
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
         }
       },
       "System.Console/4.0.0": {
@@ -480,6 +540,9 @@
           "System.Runtime.InteropServices": "4.1.0",
           "System.Threading": "4.0.11",
           "runtime.native.System": "4.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
         }
       },
       "System.Runtime.Numerics/4.0.1": {
@@ -731,6 +794,31 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Akka/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1EDg3N2qEmQz5VwP9gEdagiDriC7f9EW4HDIxSWV/8ycfTCrsB1U5gS7NnlOThWL3sT+CXC0uLyAXOBS1IbU7Q=="
+    },
+    "Akka.Persistence/1.1.1.28-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n/uOZlaCcCjHjjFvSPydaj2AKHR3EwHefWnq7OFJy/329bdIIfIfQTcdvZolUWPco9S52m/yhA8BDPleRnsh7Q=="
+    },
+    "Akka.Persistence.Sql.Common/1.1.1.28-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lPn4vKr4383+62PZGFGLOTjxhSYNoN9BumHfezs4FWKtyhkJQ8OBHtJioo+3+vtaqp7v6xhSFJhP0N8977zilw=="
+    },
+    "Akka.Persistence.SqlServer/1.1.1.5-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j9j9w9FvMr749KVXB0xSyWvUTM2ilVLEAvqn5bJowTy4jv8Luu8Q3Eo/YhRHsVe/uJHs4iQfnmo2M97CAJnZnA=="
+    },
+    "Google.ProtocolBuffers/2.4.1.555": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JsaOFX3nr6F0nGkGk7stbD2jTpvy7vgBuY+chB6+qsimMPu7YvQ6BgNOjjHd2xFqmByUCUD8pF9D07kPug8N1g=="
+    },
     "Microsoft.NETCore.Platforms/1.0.1": {
       "type": "package",
       "serviceable": true,
@@ -750,6 +838,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ypsCvIdCZ4IoYASJHt6tF2fMo7N30NLgV1EbmC+snO490OMl9FvVxmumw14rhReWU3j3g7BYudG6YCrchwHJlA=="
+    },
+    "Newtonsoft.Json/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA=="
     },
     "runtime.native.System/4.0.0": {
       "type": "package",
@@ -790,6 +883,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-2gBcbb3drMLgxlI0fBfxMA31ec6AEyYCHygGse4vxceJan8mRIWeKJ24BFzN7+bi/NFTgdIgufzb94LWO5EERQ=="
+    },
+    "System.Collections.Immutable/1.1.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MOlivTIeAIQPPMUPWIIoMCvZczjFRLYUWSYwqi1szu8QPyeIbsaPeI+hpXe1DzTxNwnRnmfYaoToi6kXIfSPNg=="
     },
     "System.Console/4.0.0": {
       "type": "package",

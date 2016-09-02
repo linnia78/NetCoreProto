@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using MessageProto.Data;
 using Microsoft.Extensions.Configuration;
-using Insellerate.Infastructure;
+using Infastructure;
 
 namespace MessageProto
 {

@@ -3836,7 +3836,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Insellerate.Infastructure/1.0.0": {
+      "Infastrucutre/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
@@ -3847,17 +3847,17 @@
           "NETStandard.Library": "1.6.0"
         },
         "compile": {
-          "netstandard1.6/Insellerate.Infastructure.dll": {}
+          "netstandard1.6/Infastrucutre.dll": {}
         },
         "runtime": {
-          "netstandard1.6/Insellerate.Infastructure.dll": {}
+          "netstandard1.6/Infastrucutre.dll": {}
         }
       },
       "MessageProto.Data/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
-          "Insellerate.Infastructure": "1.0.0",
+          "Infastrucutre": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
           "NETStandard.Library": "1.6.0"
         },
@@ -10067,10 +10067,10 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Insellerate.Infastructure/1.0.0": {
+    "Infastrucutre/1.0.0": {
       "type": "project",
-      "path": "../Insellerate.Infastructure/project.json",
-      "msbuildProject": "../Insellerate.Infastructure/Insellerate.Infastructure.xproj"
+      "path": "../Infastrucutre/project.json",
+      "msbuildProject": "../Infastrucutre/Infastrucutre.xproj"
     },
     "MessageProto.Data/1.0.0": {
       "type": "project",
@@ -10085,7 +10085,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Insellerate.Infastructure >= 1.0.0-*",
+      "Infastrucutre >= 1.0.0-*",
       "MessageProto.Data >= 1.0.0-*",
       "MessageProto.Domain >= 1.0.0-*",
       "Microsoft.AspNetCore.Diagnostics >= 1.0.0",

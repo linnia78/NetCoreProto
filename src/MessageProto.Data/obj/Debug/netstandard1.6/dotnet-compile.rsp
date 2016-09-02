@@ -1,5 +1,5 @@
---temp-output:C:\my\Projects\MessageProto\src\MessageProto.Data\obj\Debug\netstandard1.6\
---out:C:\my\Projects\MessageProto\src\MessageProto.Data\bin\Debug\netstandard1.6\MessageProto.Data.dll
+--temp-output:C:\My\Projects\MessageProto\src\MessageProto.Data\obj\Debug\netstandard1.6\
+--out:C:\My\Projects\MessageProto\src\MessageProto.Data\bin\Debug\netstandard1.6\MessageProto.Data.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -100,10 +100,10 @@
 --reference:C:\Users\allen\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\allen\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\allen\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---reference:C:\my\Projects\MessageProto\src\Insellerate.Infastructure\bin\Debug\netstandard1.6\Insellerate.Infastructure.dll
-C:\my\Projects\MessageProto\src\MessageProto.Data\Message.cs
-C:\my\Projects\MessageProto\src\MessageProto.Data\MessageContext.cs
-C:\my\Projects\MessageProto\src\MessageProto.Data\Migrations\20160901205424_InitMigration.cs
-C:\my\Projects\MessageProto\src\MessageProto.Data\Migrations\20160901205424_InitMigration.Designer.cs
-C:\my\Projects\MessageProto\src\MessageProto.Data\Migrations\MessageContextModelSnapshot.cs
-C:\my\Projects\MessageProto\src\MessageProto.Data\Properties\AssemblyInfo.cs
+--reference:C:\My\Projects\MessageProto\src\Infastrucutre\bin\Debug\netstandard1.6\Infastrucutre.dll
+C:\My\Projects\MessageProto\src\MessageProto.Data\Message.cs
+C:\My\Projects\MessageProto\src\MessageProto.Data\MessageContext.cs
+C:\My\Projects\MessageProto\src\MessageProto.Data\Migrations\20160901205424_InitMigration.cs
+C:\My\Projects\MessageProto\src\MessageProto.Data\Migrations\20160901205424_InitMigration.Designer.cs
+C:\My\Projects\MessageProto\src\MessageProto.Data\Migrations\MessageContextModelSnapshot.cs
+C:\My\Projects\MessageProto\src\MessageProto.Data\Properties\AssemblyInfo.cs

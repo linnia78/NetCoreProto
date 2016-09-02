@@ -4,7 +4,7 @@
   "dependencies": {
     "NETStandard.Library": "1.6.0",
     "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
-    "Insellerate.Infastructure": "1.0.0-*"
+    "Infastrucutre": "1.0.0-*"
   },
 
   "tools": {

@@ -1,5 +1,5 @@
---temp-output:C:\my\Projects\MessageProto\src\MessageProto\obj\Debug\netcoreapp1.0\
---out:C:\my\Projects\MessageProto\src\MessageProto\bin\Debug\netcoreapp1.0\MessageProto.dll
+--temp-output:C:\My\Projects\MessageProto\src\MessageProto\obj\Debug\netcoreapp1.0\
+--out:C:\My\Projects\MessageProto\src\MessageProto\bin\Debug\netcoreapp1.0\MessageProto.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -185,10 +185,10 @@
 --reference:C:\Users\allen\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\allen\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\allen\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---reference:C:\my\Projects\MessageProto\src\Insellerate.Infastructure\bin\Debug\netstandard1.6\Insellerate.Infastructure.dll
---reference:C:\my\Projects\MessageProto\src\MessageProto.Data\bin\Debug\netstandard1.6\MessageProto.Data.dll
---reference:C:\my\Projects\MessageProto\src\MessageProto.Domain\bin\Debug\netstandard1.6\MessageProto.Domain.dll
---resource:"C:\my\Projects\MessageProto\src\MessageProto\obj\Debug\netcoreapp1.0\MessageProtodotnet-compile.deps.json",MessageProto.deps.json
-C:\my\Projects\MessageProto\src\MessageProto\Program.cs
-C:\my\Projects\MessageProto\src\MessageProto\Startup.cs
-C:\my\Projects\MessageProto\src\MessageProto\Controllers\MessageController.cs
+--reference:C:\My\Projects\MessageProto\src\Infastrucutre\bin\Debug\netstandard1.6\Infastrucutre.dll
+--reference:C:\My\Projects\MessageProto\src\MessageProto.Data\bin\Debug\netstandard1.6\MessageProto.Data.dll
+--reference:C:\My\Projects\MessageProto\src\MessageProto.Domain\bin\Debug\netstandard1.6\MessageProto.Domain.dll
+--resource:"C:\My\Projects\MessageProto\src\MessageProto\obj\Debug\netcoreapp1.0\MessageProtodotnet-compile.deps.json",MessageProto.deps.json
+C:\My\Projects\MessageProto\src\MessageProto\Program.cs
+C:\My\Projects\MessageProto\src\MessageProto\Startup.cs
+C:\My\Projects\MessageProto\src\MessageProto\Controllers\MessageController.cs
